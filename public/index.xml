@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on atenúa</title>
+    <link>/</link>
+    <description>Recent content in Home on atenúa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Mar 2021 19:05:58 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude-Joseph Vernet</title>
+      <link>/2021/03/03/live/claude-joseph-vernet.html</link>
+      <pubDate>Wed, 03 Mar 2021 19:05:58 +0200</pubDate>
+      
+      <guid>/2021/03/03/live/claude-joseph-vernet.html</guid>
+      <description>Vernet was born in Avignon. When only fourteen years of age he aided his father, Antoine Vernet (1689–1753), a skilled decorative painter, in the most important parts of his work.</description>
+    </item>
+    
+    <item>
+      <title>Second Post</title>
+      <link>/2021/03/02/live/second-post.html</link>
+      <pubDate>Tue, 02 Mar 2021 19:05:58 +0200</pubDate>
+      
+      <guid>/2021/03/02/live/second-post.html</guid>
+      <description>Despite the great success of Die Entführung aus dem Serail, Mozart did little operatic writing for the next four years, producing only two unfinished works and the one-act Der Schauspieldirektor.</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>/2021/03/01/live/first-post.html</link>
+      <pubDate>Mon, 01 Mar 2021 19:05:58 +0200</pubDate>
+      
+      <guid>/2021/03/01/live/first-post.html</guid>
+      <description>First Post Text.</description>
+    </item>
+    
+  </channel>
+</rss>

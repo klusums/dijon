@@ -1,0 +1,11 @@
+{{ define "main" }}
+	<main>
+		<article>
+			{{ with .Params.image}}<img src="{{ . }}">{{ end }}
+			<h1>{{ .Title }}</h1>
+			<div>
+				{{ .Content }}		
+			</div>
+		</article>
+	</main>
+{{ end }}

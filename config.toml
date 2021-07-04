@@ -1,0 +1,51 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "atenúa"
+
+theme = "blank-master"
+relativeURLs = true
+uglyurls = true
+paginate = 2
+
+summaryLength = 30
+
+pluralizeListTitles = false
+
+[permalinks]
+  live  = "/:year/:month/:day/live/:title"
+
+DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = "false"
+
+[languages]
+
+  [languages.en]
+    contentDir = "content/english"
+    title = "atenúa"
+    languageName = "EN"
+    weight = 10
+      [languages.en.menu]
+
+      [[languages.en.menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 10
+      [[languages.en.menu.main]]
+        name = "About"
+        url = "about.html"
+        weight = 15
+
+  [languages.es]
+    contentDir = "content/greek"
+    title = "Η Νεα μου Ιστιοσελιδα"
+    languageName = "ES"
+    weight = 20
+
+      [[languages.es.menu.main]]
+        name = "Home"
+        url = "/es"
+        weight = 10
+      [[languages.es.menu.main]]
+        name = "About"
+        url = "es/about.html"
+        weight = 15

@@ -1,0 +1,31 @@
+<header>
+	<a href="{{ .Site.BaseURL | relLangURL }}index.html"><b>{{ .Site.Title }}</b></a>
+	{{ with .Site.Menus.main }}
+
+	<div>
+
+	<div>	
+	<nav>
+		<ul>
+			{{ range . }}
+			<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+			{{ end }}
+		</ul>
+	</nav>
+	{{ end }}
+	</div>
+
+
+	<!-- <div>
+	<div>
+        <ul>
+            {{ range $.Site.Home.AllTranslations }}
+            <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
+	</div> -->
+
+	</div>
+
+</header>
