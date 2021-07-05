@@ -24,6 +24,7 @@ main article time {display: block; margin: 1rem 0;}
 main article nav {margin: 1rem 0;}
 
 main article img:first-child {margin-top: 1rem;}
+main article div div img:first-child {margin: 0 0 1rem 0;}
 article span.author {display: block; margin: 1rem 0;}
 
 aside div div ul {list-style: none; margin-left: 0; padding-left: 0;}
